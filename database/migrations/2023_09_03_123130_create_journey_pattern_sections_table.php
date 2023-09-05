@@ -12,11 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('journey_pattern_sections', function (Blueprint $table) {
-            $table->string('id')->unique()->primary();
-            // $table->unsignedBigInteger('route_id');
-            // $table->unsignedBigInteger('service_id');
-            // $table->foreign('route_id')->references('id')->on('routes');
-            // $table->foreign('service_id')->references('id')->on('services');
+            $table->string('id')->unique()->primary();;
             $table->timestamps();
         });
     }
