@@ -1,4 +1,3 @@
-# Testing the `ProcessXmlData` Artisan Command
 
 This README provides step-by-step instructions on how to test the `ProcessXmlData` Artisan command. This command is responsible for processing XML files containing transportation data and storing it in your MySQL database.
 
