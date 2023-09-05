@@ -24,7 +24,6 @@ return new class extends Migration
             $table->timestamps();
 
             // Define foreign key constraints
-            // $table->foreign('place_id')->references('id')->on('places');
             // $table->foreign('administrative_area_ref')->references('id')->on('administrative_areas');
         });
     }
